@@ -13,22 +13,6 @@ const images = [
   },
 ];
 
-// const galleryEl = document.querySelector('.gallery');
-// galleryEl.style.display = 'grid';
-// galleryEl.style.gridTemplateColumns = '500px 500px 500px';
-// galleryEl.style.listStyleType = 'none';
-
-// const imagesEl = images
-//   .map(image => {
-//     return galleryEl.insertAdjacentHTML(
-//       'afterbegin',
-//       `<li><img src = ${image.url} alt = ${image.alt} width = 450></img></li>`,
-//     );
-//   })
-//   .join('');
-
-// galleryEl.append(imagesEl);
-
 const galleryEl = document.querySelector('.gallery');
 
 galleryEl.style.display = 'grid';
